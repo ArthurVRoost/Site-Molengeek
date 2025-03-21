@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 header{
     background-color: #9b009d;
     display: flex;
@@ -6,4 +9,33 @@ header{
 .imgH{
     width: 35px;
     height: 35px;
+}
+.form{
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[value="S'INCSCRIRE"]{
+    background-color: #00e174;
+    border: solid 0;
+    border-radius: 3px;
+    color: white;
+
+}
+label[for="form"]{
+    color: rgba(211, 211, 211, 0.547);
+
+}
+.liste{
+    display: flex;
+    gap: 30px;
+}
+
+.imgN{
+    width: 140px;
+    height: 70px;
+    margin-left: 60px;
 }
