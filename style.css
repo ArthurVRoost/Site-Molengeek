@@ -1,10 +1,13 @@
 body{
     margin: 0;
+    font-family: Montserrat;
 }
+
+
 header{
     background-color: #9b009d;
     display: flex;
-    
+    align-items: center;
 }
 .imgH{
     width: 35px;
@@ -12,30 +15,54 @@ header{
 }
 .form{
     justify-content: center;
+    margin-left: 400px;
+    align-content: center;
+    display: flex;
 }
 nav{
     display: flex;
     justify-content: space-between;
-}
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.166);
+    }
 
-input[value="S'INCSCRIRE"]{
+input[value="S'INSCRIRE"]{
     background-color: #00e174;
     border: solid 0;
     border-radius: 3px;
-    color: white;
+    color: rgba(255, 255, 255, 0.465);
 
 }
 label[for="form"]{
     color: rgba(211, 211, 211, 0.547);
+    font-size: small;
 
 }
 .liste{
     display: flex;
     gap: 30px;
+    border-left: 1px solid rgba(0, 0, 0, 0.166);
+    padding-left: 120px;
+    border-right: 1px solid rgba(0, 0, 0, 0.166);
+    padding-right: 80px;
+    align-items: center;
+    
+}
+.testez{
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    
 }
 
 .imgN{
-    width: 140px;
-    height: 70px;
+    width: 180px;
+    height: 90px;
     margin-left: 60px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
 }
