@@ -70,8 +70,10 @@ label[for="form"]{
 }
 
 .hr1{
-   height: 1px;
+    width: 50px;
     background-color: purple;
+    margin-bottom: 50px;
+    height: 1px;
 }
 
 
@@ -80,6 +82,7 @@ label[for="form"]{
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1rem;
+    line-height: 2.1;
     
 }
 ul li::marker {
@@ -160,6 +163,7 @@ i{
 
 .section3{
     padding-bottom: 30px;
+    
 }
 .divCR{
     justify-content: center;
