@@ -52,7 +52,7 @@ label[for="form"]{
     padding-right: 80px;
     align-items: center;
     text-decoration: none;
-    
+    font-weight: bold;
 }
 .before{
     position: relative;
@@ -68,18 +68,19 @@ label[for="form"]{
     background-color: black;
 }
 
-    .testez{
+.testez{
     align-items: center;
     display: flex;
     margin-right: 30px;
+    font-weight: bold;
     
 }
 
 .imgN{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 160px;
-    height: 80px;
+    width: 140px;
+    height: 70px;
     margin-left: 60px;
 }
 
